@@ -1,0 +1,634 @@
+* {
+    margin: 0 auto;
+    /* 自适应 */
+}
+
+#top {
+    height: 50px;
+    background: #423101;
+    display: flex;
+    /* 使用 flex 布局 */
+    justify-content: space-between;
+    /* 水平两端对齐 */
+}
+
+#content {
+    width: 700px;
+    height: 100%;
+    list-style-type: none;
+    /* 去除列表的默认符号 */
+    display: flex;
+    /* 使用 flex 布局 */
+    justify-content: center;
+    /* 水平居中 */
+}
+
+#content li {
+    font-size: 13px;
+    white-space: nowrap;
+    width: 100px;
+    height: 100%;
+    display: flex;
+    /* 使用 flex 布局 */
+    align-items: center;
+    /* 垂直居中 */
+    text-align: center;
+    /* 文字居中对齐 */
+    padding: 0 20px;
+    border-right: 1px solid rgba(250, 248, 241, 0.142);
+    /* 添加右边框 */
+    color: white;
+}
+
+#content li:last-child {
+    border-right: none;
+    /* 移除最后一个列表项的右边框 */
+}
+
+#schandcar {
+    width: 100px;
+    height: 100%;
+    list-style-type: none;
+    /* 去除列表的默认符号 */
+    display: flex;
+    /* 使用 flex 布局 */
+    justify-content: center;
+    /* 水平居中 */
+}
+
+#schandcar li {
+    font-size: 13px;
+    white-space: nowrap;
+    width: 100px;
+    height: 100%;
+    display: flex;
+    /* 使用 flex 布局 */
+    align-items: center;
+    /* 垂直居中 */
+    text-align: center;
+    /* 文字居中对齐 */
+    padding: 0 20px;
+    border-left: 1px solid rgba(250, 248, 241, 0.142);
+    /* 添加右边框 */
+    color: white;
+}
+
+#content li:hover {
+    background: #c758187a;
+}
+
+#schandcar li:hover {
+    background: #c758187a;
+}
+
+#schandcar li img {
+    width: 22px;
+    /* 设置图片宽度 */
+    height: 22px;
+    /* 设置图片高度 */
+    display: flex;
+    /* 使用 flex 布局 */
+    justify-content: center;
+    /* 水平居中 */
+    align-items: center;
+    /* 垂直居中 */
+}
+
+.dsj {
+    font-size: 8px;
+}
+
+#cake {
+    width: 100%;
+    height: 650px;
+    background-color: rgba(240, 255, 255, 0.723);
+    display: flex;
+}
+
+#cake #left {
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+
+#cake #right {
+    width: 50%;
+    height: 100%;
+}
+
+.t1 {
+    color: #423101e7;
+    font-weight: bold;
+    font-size: 50px;
+    position: relative;
+    left: 30%;
+    top: 15%;
+}
+
+.t2 {
+    letter-spacing: 2px;
+    position: relative;
+    left: 30%;
+    top: 17%;
+    font-weight: bold;
+    color: #c75818f1;
+}
+
+#buy {
+    display: flex;
+    /* 使用 flex 布局 */
+    align-items: center;
+    /* 垂直居中 */
+    justify-content: center;
+    border: 4px solid #423101e7;
+    width: 130px;
+    height: 30px;
+    border-radius: 1px;
+    position: relative;
+    top: 23%;
+    right: 10%;
+}
+
+#buy p {
+    color: #423101e7;
+    font-weight: bold;
+}
+
+.t1:hover {
+    color: #c75818f1;
+}
+
+#buy:hover {
+    border-color: #c75818f1;
+}
+
+#buy:hover p {
+    color: #c75818f1;
+}
+
+#right img {
+    width: 40%;
+    height: 50%;
+    position: relative;
+    top: 30%;
+}
+
+#login {
+    width: 100%;
+    height: 650px;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#t3 {
+    margin-top: 50px;
+    color: #c75818f1;
+    font-weight: bold;
+    font-size: 34px;
+    letter-spacing: 2px;
+}
+
+#input {
+    width: 40%;
+    height: 120px;
+}
+
+#input p {
+    margin-top: 8px;
+    margin-left: 12%;
+    color: #c75818f1;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+#input input {
+    margin-top: 8px;
+    width: 80%;
+    height: 30px;
+    margin-left: 10%;
+    background-color: transparent;
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding-left: 20px;
+}
+
+#input input::placeholder {
+    color: rgba(200, 200, 200, 0.873);
+}
+
+#geton {
+    margin-top: 30px;
+    width: 80px;
+    height: 50px;
+    background: #c75818f1;
+    color: white;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+
+#rexiao {
+    width: 100%;
+    height: 650px;
+    display: flex;
+}
+
+#res {
+    width: 80%;
+    height: 100%;
+}
+
+#shang {
+    width: 100%;
+    height: 10%;
+}
+
+#shang span {
+    color: black;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 100px;
+}
+
+#xia {
+    width: 100%;
+    height: 80%;
+}
+
+#xia #firstline {
+    width: 100%;
+    height: 50%;
+}
+
+#firstline {
+    display: flex;
+    justify-content: space-between;
+}
+
+#firstline div {
+    flex: 1;
+    height: 100%;
+    /* 设置盒子的高度 */
+    background-color: rgba(240, 255, 255, 0.723);
+    margin-right: 10px;
+    /* 设置盒子之间的距离 */
+}
+
+#firstline div:first-child {
+    margin-left: 0;
+    /* 第一个img盒子没有左边距 */
+}
+
+#firstline div:last-child {
+    margin-right: 0;
+    /* 最后一个img盒子没有右边距 */
+}
+
+/* 该写pho这个元素啦 */
+#wei {
+    width: 100%;
+    height: 10%;
+    background: #745c5c;
+}
+
+
+
+#mycart {
+    width: 100%;
+    height: 100px;
+}
+
+#mycart span {
+    font-size: 40px;
+    margin-left: 40px;
+    line-height: 80px;
+}
+
+#message {
+    width: 100%;
+    height: 250px;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.116);
+}
+
+#message #a {
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+
+#message #b {
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+
+.s1 img,
+.s2 img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    margin-left: 20px;
+    margin-right: 20px;
+    float: left;
+}
+
+.name {
+    font-size: 40px;
+    color: #f07818;
+}
+
+.ok {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.p1,
+.p2 {
+    flex-grow: 1;
+}
+
+.buttom {
+    margin-top: 20px;
+}
+
+.buttom ul {
+    /* list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 10px; */
+    list-style: none;
+}
+
+.buttom ul li {
+    float: left;
+    margin-right: 5px;
+}
+
+.buttom ul li a {
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.zeng {
+    background-color: #5bc0de;
+    border: 1px solid #46b8da;
+}
+
+.jian {
+    background-color: #f0ad4e;
+    border: 1px solid #eea236;
+}
+
+.shan {
+    background-color: #d9534f;
+    border: 1px solid #d43f3a;
+}
+
+#money {
+    width: 100%;
+    height: 50px;
+}
+
+#money p {
+    margin-left: 50px;
+    margin-top: 10px;
+    font-size: 19px;
+}
+
+#money li {
+    list-style: none;
+    margin-left: 80%;
+    margin-top: 15px;
+    width: 100px;
+    height: 30px;
+    background: rgba(66, 168, 52, 0.822);
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    margin-top: 30px;
+}
+
+.footer p {
+    margin: 0;
+    top: 100px;
+}
+
+/* 默认样式 */
+#message #a,
+#message #b {
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+
+/* 在小屏幕上调整样式 */
+@media (max-width: 768px) {
+    #message #a,
+    #message #b {
+        width: 100%;
+        margin-top: 10px;
+        float: none;
+    }
+}
+
+#dingdan{
+    width: 100%;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+
+  th, td {
+    border: 1px solid #000;
+    padding: 8px;
+    text-align: center;
+  }
+  #mulu{
+    width: 90%;
+  }
+
+  #whoani{
+    width: 100%;
+    height: 700px;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  #mes1{
+    margin-top: 18px;
+    margin-left: 12%;
+    color: #c75818f1;
+    font-size: 18px;
+    font-weight: bold;
+  }
+
+  #mes2{
+    margin-top: 60px;
+    margin-left: 12%;
+    color: #c75818f1;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+#geton1 {
+    width: 80px;
+    height: 50px;
+    background: #c75818f1;
+    color: white;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+
+#geton2 {
+    width: 80px;
+    height: 50px;
+    background: #c75818f1;
+    color: white;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.title{
+    display: block;
+    margin-top: 50px;
+    margin-left: 130px;
+    margin-bottom: 100px;
+}
+.product img{
+    width: 158px;
+    height: 173px;
+}
+.product p{
+    white-space: nowrap;
+}
+#content_sp {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+  
+.product {
+    width: calc(14% - 10px); 
+    margin-bottom: 10px;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+#content_sp .product ul{
+    list-style: none;
+}
+.join{
+    width: 77px;
+    height: 30px;
+    border-radius: 4px;
+    text-align: center;
+    background-color: #f07818;
+    font: 10px/32px "Microsoft Yahei";
+    margin-top: 12px;
+    margin-left: 80px;
+}
+a{
+    display: block;
+    text-decoration: none;
+    color: white;
+}
+a.join:hover{
+    background-color: orange;
+    border: 1px solid #ffa64d;
+}
+#weip {
+    height: 30px;
+}
+#weip .wei_content{
+    height: 30px;
+    margin: 0 auto;
+}
+.control{
+    width: 50px;
+    height: 30px;
+    text-align: center;
+    background-color:#5bc0de;
+    border-radius: 4px ;
+    border: 1px solid #46b8da;
+}
+
+#weip .wei_content ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+#weip .wei_content ul li{
+    float: left;
+    margin: 0;
+    padding-left: 10px;
+}
+input{
+    width: 30px;
+}
+
+/* #zleft, #zcenter, #zright {
+    display: inline-block;
+    height: 100px;
+    width: 33%;
+    background: #000;
+  } */
+
+  #zleft{
+    width: 33.33%;
+    height: 400px;
+    float: left;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  #zcenter{
+    width: 33.33%;
+    height: 400px;
+    float: left;
+    position: relative;
+    top: 20px;
+    left: 20px;
+  }
+  #zright{
+    width: 33.33%;
+    height: 400px;
+    float: left;
+  }
+  #zright li{
+    list-style-type: none;
+    border-bottom: 1px solid black;
+    margin-top: 20px;
+  }
+  #zleft #img1 {
+    width: 90%;
+    height: 70%;
+    margin-top: 20px;
+  }
+  /* #zleft #zxia{
+    width: 80%;
+    background: #805c5c;
+  } */
